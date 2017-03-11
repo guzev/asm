@@ -22,3 +22,14 @@ uint32_t pop_count(uint32_t a) {
 
 //second task 
 //
+
+
+add     eax, ebx
+adc     eax, ebx ; eax = eax + ebx + CF
+                 ; write CF, OF, ZF, SF
+adcx    eax, ebx ; eax = eax + ebx + CF
+                 ; write CF
+adox    eax, ebx ; eax = eax + ebx + OF
+                 ; write OF
+                 
+                 
